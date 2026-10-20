@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "metzclient",
+  "version": "${version}",
+  "name": "Metzclient",
+  "description": "Dark multi-column client UI and modular Minecraft client tools.",
+  "authors": ["Metzclient"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.metzclient.Metzclient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
